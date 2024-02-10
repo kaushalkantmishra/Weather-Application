@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    background-color: rgb(26, 98, 214);
+    margin: 0;
+    margin-bottom: 10px;
+  padding: 10px;
+  }
+  .search-item{
+    background-color:#eceeee;
+    margin-left: 36%;
+    margin-right: 36%;
+    border-radius: 14px;
+  }
+  

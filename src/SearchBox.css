@@ -11,4 +11,12 @@
   margin-top: 20px;
 }
 
-  
+@media (max-width: 768px) {
+  .SearchBox {
+    flex-direction: column; 
+  }
+
+  .btn {
+    margin-top: 10px; 
+  }
+}

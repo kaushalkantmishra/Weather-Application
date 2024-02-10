@@ -18,4 +18,11 @@ body {
     margin-right: 36%;
     border-radius: 14px;
   }
+
+  @media (max-width: 768px) {
+    .search-item {
+      margin-left: 5%; 
+      margin-right: 5%;
+    }
+  }
   

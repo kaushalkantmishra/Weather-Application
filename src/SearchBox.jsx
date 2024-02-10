@@ -7,8 +7,8 @@ export default function SearchBok({ updateInfo }) {
   let [city, setCity] = useState("");
   let [error, setError] = useState(false);
 
-  const API_URL = "http://api.openweathermap.org/data/2.5/weather";
-  const API_KEY = "ed9750d487cf9c177bf0a70846ce2e51";
+  const API_URL = import.meta.env.VITE_API_URL;
+  const API_KEY = import.meta.env.VITE_API_KEY;
 
   let getWeatherInfo = async () => {
     try {

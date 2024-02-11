@@ -56,7 +56,6 @@ export default function SearchBok({ updateInfo }) {
         <TextField
           label="City Name"
           id="city"
-          defaultValue="Normal"
           required
           value={city}
           onChange={handleChange}

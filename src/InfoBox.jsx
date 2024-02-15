@@ -49,7 +49,7 @@ export default function InfoBox({ info }) {
               component={"span"}
             >
               <p>Temperature = <b>{info.temp}&deg;C</b></p>
-              <p>Humidity = {info.humidity}</p>
+              <p>Humidity = {info.humidity}%</p>
               <p>Max-temperature = {info.tempMax}&deg;C</p>
               <p>Min-temperature = {info.tempMin}&deg;C</p>
               <p>Wind-speed = {info.windSpeed} km/hr</p>
